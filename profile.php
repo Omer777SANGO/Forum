@@ -21,7 +21,7 @@
                     <div class="card-body">
                         <h4>@<?= $user_pseudo; ?></h4>
                         <hr>
-                        <p><?= $user_lastname . ' ' . $user_firstname; ?></p>
+                        <p><?= $user_lastname . ' ' . $user_firstname; ?> <a href="change-password.php?id=<?= $idOfUser; ?>" class="text-decoration-none" style="float: right;">Changer son mot de passe</a> </p>
                     </div>
                 </div>
                 <br>
